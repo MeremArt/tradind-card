@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #B01E68;
+}
+
+.Card{
+  background-color: #FFE15D;
+  border-radius: 10px;
+
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  height: 400px;
+  width: 350px;
+ box-shadow: 5px 5px 5px 5px  #1A120B;
+}
+
+
+.koala{
+  position: absolute;
+  top:-70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 174px;
+      height: 201px;
+      margin: auto;
+  border-radius: 10px;
+  outline: 2px dashed #DC3535;
+
+}
+.anime{
+
+  display: inline;
+  background-color: #red;
+
+  position: absolute;
+  top:270px;
+  bottom: 0;
+  left: 72px;
+  color: green;
+    margin: auto;
+    border-radius: 10px;
+  right: 0;
+}
+.min{
+width: 200px;
+height: 20px;
+background-color: white;
+display: flex;
+justify-content: center;align-content: center;
+}
+.footer{
+
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    left: 570px;
+}
